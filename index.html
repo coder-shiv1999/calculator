@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator_Shivam</title>
+    <link rel="stylesheet" href="calc.css">
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">
+            <img src="logo.jpg" alt="shivam">
+            <p>Shivam Verma</p>
+        </div>
+        <div class="creator">
+            <p>Calculator by Shivam Verma</p>
+        </div>
+        <div class="contact">
+            <p>Mail for Contact</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="Calculator">
+            <p>&copy Shivam-verma1999</p>
+            <form name="form1" class="calc1">
+                <input type="text" class="tbox" name="answer" id="display">
+                <input type="button" class="btn" value="C" onclick="form1.answer.value=''">
+                <input type="button" class="btn" value=&larr;
+                    onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length-1)">
+                <input type="button" class="btn" value="00" onclick="form1.answer.value+='00'">
+                <input type="button" class="opt" value="/" onclick="form1.answer.value+='/'">
+                <input type="button" class="btn" value="7" onclick="form1.answer.value+='7'">
+                <input type="button" class="btn" value="8" onclick="form1.answer.value+='8'">
+                <input type="button" class="btn" value="9" onclick="form1.answer.value+='9'">
+                <input type="button" class="opt" value="+" onclick="form1.answer.value+='+'">
+                <input type="button" class="btn" value="4" onclick="form1.answer.value+='4'">
+                <input type="button" class="btn" value="5" onclick="form1.answer.value+='5'">
+                <input type="button" class="btn" value="6" onclick="form1.answer.value+='6'">
+                <input type="button" class="opt" value="-" onclick="form1.answer.value+='-'">
+                <input type="button" class="btn" value="1" onclick="form1.answer.value+='1'">
+                <input type="button" class="btn" value="2" onclick="form1.answer.value+='2'">
+                <input type="button" class="btn" value="3" onclick="form1.answer.value+='3'">
+                <input type="button" class="opt" value="x" onclick="form1.answer.value+='*'">
+                <input type="button" class="btnzero" id="
+                zero" value="0" onclick="form1.answer.value+='0'">
+                <input type="button" class="opt" value="." onclick="form1.answer.value+='.'">
+                <input type="button" class="opt" value="=" onclick="form1.answer.value+='='+eval(form1.answer.value)">
+             </form>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="email">
+            <p>shivam.durgehs1999@gmail.com</p>
+        </div>
+        <div class="utube">
+            <p>You tube- Shivam Education</p>
+        </div><div class="insta">
+            <p>Insta-capturing_._world</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
